@@ -11,7 +11,7 @@
 .PARAMETER MaxCharacters
     Max number of characters in the password. Minimum is 6. Default is 16 characters.
 .EXAMPLE
-    Generate-Password -LimitedSpecial -MaxCharacters 12
+    Generate-Password -CharacterSet LimitedSpecial -MaxCharacters 12
     Generates a password with a limited special character set that is 12 characters in length.
 .NOTES
     Version             :  0.1
